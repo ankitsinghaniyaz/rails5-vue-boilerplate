@@ -34,3 +34,8 @@ sudo -u postgres psql
 \q
 
 ```
+
+Things to do before moving into production:
+
+- Make sure to change the database name to match your application name, not a bigdeal but makes a difference.
+
