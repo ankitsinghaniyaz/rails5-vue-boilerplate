@@ -30,6 +30,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 # Use Devise gem for authentication
 gem 'devise'
+# Use active admin gem for admin interface
+gem 'activeadmin'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
