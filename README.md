@@ -7,13 +7,13 @@ This scaffold is supposed to quick iteration on new ideas. Here are some of the 
 - Webpack via Webpacker
 - Vue.js
 - Postgresql
+- RSpec
 
 
 ## TODO
 
 - Devise
 - Active Admin
-- RSpec
 - iView CSS framework
 
 ## Setting up the Database
