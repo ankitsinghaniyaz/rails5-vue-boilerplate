@@ -8,10 +8,16 @@ default: &default
 development:
   <<: *default
   database: rails_app_development
+  username: {username}
+  password: {username}
+  host: localhost
 
 test:
   <<: *default
   database: rails_app_test
+  username: {username}
+  password: {username}
+  host: localhost
 
 # Instead, provide the password as a unix environment variable when you boot
 # the app. Read http://guides.rubyonrails.org/configuring.html#configuring-a-database

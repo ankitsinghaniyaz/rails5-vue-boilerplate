@@ -28,6 +28,7 @@ sudo -u postgres createuser -s {username}
 # get into the psql prompt to do some work
 sudo -u postgres psql
 # setup password for the user
+\password {username}
 # when prompted enter a password and update the database.yml for the same
 # then quit
 \q
