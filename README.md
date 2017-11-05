@@ -1,24 +1,35 @@
-# README
+# Rails + Vue Scaffold
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This scaffold is supposed to quick iteration on new ideas. Here are some of the key choices made in making this.
 
-Things you may want to cover:
+- No CoffeeScript
+- No Turbolink, I tried using it, it's a pain
+- Webpack via Webpacker
+- Vue.js
+- Postgresql
 
-* Ruby version
 
-* System dependencies
+## TODO
 
-* Configuration
+- Devise
+- Active Admin
+- RSpec
+- iView CSS framework
 
-* Database creation
+## Setting up the Database
 
-* Database initialization
+This is the most tricky part when setting up the application. You will need to make sure that `postgresql` is installed on your system. Here is how you can install it on Ubuntu:
 
-* How to run the test suite
+```bash
+# install postgres and required libs
+sudo apt install postgresql postgresql-contrib libpq-dev
+# create a new user and specify in database.yml
+sudo -u postgres createuser -s {username}
+# get into the psql prompt to do some work
+sudo -u postgres psql
+# setup password for the user
+# when prompted enter a password and update the database.yml for the same
+# then quit
+\q
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
